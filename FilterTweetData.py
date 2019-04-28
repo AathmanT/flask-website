@@ -11,10 +11,12 @@ from gensim import corpora, models, similarities
 
 
 
-def preprocess(time_stamps):
+def preprocess(tweets_data_path,time_stamps):
     # Reading Tweets
     print('Reading Tweets\n')
-    tweets_data_path = 'output.txt'
+    #tweets_data_path = 'output.txt'
+
+    n=0
 
    # time_stamps = ['Jan','Feb', 'Mar','Apr','May','Jun','Jul','Aug','Sep','Oct', 'Nov', 'Dec']
     #time_stamps = [ 'May']
@@ -79,6 +81,7 @@ def preprocess(time_stamps):
                     content = ' '.join(content)
 
                     if len(content) > 0:
+                        n+=1
                         tweets.append([twitter_id, content, created_at])
 
                         total_tweets_list[index] += 1
@@ -94,68 +97,70 @@ def preprocess(time_stamps):
 
     dat_outfile.close()  # Close the tweets file
 
-    # Write seq file
-    seq_outfile = open(os.path.join('data', conference, 'foo-seq.dat'), 'w')
-    seq_outfile.write(str(len(total_tweets_list)) + '\n')  # number of TimeStamps
+    if(n!=0):
+        # Write seq file
+        seq_outfile = open(os.path.join('data', conference, 'foo-seq.dat'), 'w')
+        seq_outfile.write(str(len(total_tweets_list)) + '\n')  # number of TimeStamps
 
-    for count in total_tweets_list:
-        seq_outfile.write(str(count) + '\n')  # write the total tweets per year (timestamp)
+        for count in total_tweets_list:
+            seq_outfile.write(str(count) + '\n')  # write the total tweets per year (timestamp)
 
-    seq_outfile.close()
+        seq_outfile.close()
 
-    print('Done collecting tweets and writing seq')
+        print('Done collecting tweets and writing seq')
 
-    # Transform each tweet content to a vector.
+        # Transform each tweet content to a vector.
 
-    stoplist = set('for a of the and to in'.split())
+        stoplist = set('for a of the and to in'.split())
 
-    # Construct the dictionary
+        # Construct the dictionary
 
-    dictionary = corpora.Dictionary(line[1].lower().split() for line in tweets)
+        dictionary = corpora.Dictionary(line[1].lower().split() for line in tweets)
 
-    # remove stop words and words that appear only once
-    stop_ids = [dictionary.token2id[stopword] for stopword in stoplist
-                if stopword in dictionary.token2id]
-    once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
-    dictionary.filter_tokens(stop_ids + once_ids)  # remove stop words and words that appear only once
-    dictionary.compactify()  # remove gaps in id sequence after words that were removed
+        # remove stop words and words that appear only once
+        stop_ids = [dictionary.token2id[stopword] for stopword in stoplist
+                    if stopword in dictionary.token2id]
+        once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
+        dictionary.filter_tokens(stop_ids + once_ids)  # remove stop words and words that appear only once
+        dictionary.compactify()  # remove gaps in id sequence after words that were removed
 
-    dictionary.save(os.path.join('data', conference, 'dictionary.dict'))  # store the dictionary, for future reference
+        dictionary.save(os.path.join('data', conference, 'dictionary.dict'))  # store the dictionary, for future reference
 
-    # Save vocabulary
-    vocFile = open(os.path.join('data', conference, 'vocabulary.dat'), 'w')
-    for word in dictionary.values():
-        vocFile.write(word + '\n')
+        # Save vocabulary
+        vocFile = open(os.path.join('data', conference, 'vocabulary.dat'), 'w')
+        for word in dictionary.values():
+            vocFile.write(word + '\n')
 
-    vocFile.close()
+        vocFile.close()
 
-    print('Dictionary and vocabulary saved')
-
-
-    # Prevent storing the words of each document in the RAM
-    class MyCorpus(object):
-        def __iter__(self):
-            for line in tweets:
-                # assume there's one document per line, tokens separated by whitespace
-                yield dictionary.doc2bow(line[1].lower().split())
+        print('Dictionary and vocabulary saved')
 
 
-    corpus_memory_friendly = MyCorpus()
-
-    multFile = open(os.path.join('data', conference, 'foo-mult.dat'), 'w')
-
-    for vector in corpus_memory_friendly:  # load one vector into memory at a time
-        multFile.write(str(len(vector)) + ' ')
-        for (wordID, weigth) in vector:
-            multFile.write(str(wordID) + ':' + str(weigth) + ' ')
-
-        multFile.write('\n')
-
-    multFile.close()
-
-    print('Mult file saved')
+        # Prevent storing the words of each document in the RAM
+        class MyCorpus(object):
+            def __iter__(self):
+                for line in tweets:
+                    # assume there's one document per line, tokens separated by whitespace
+                    yield dictionary.doc2bow(line[1].lower().split())
 
 
+        corpus_memory_friendly = MyCorpus()
+
+        multFile = open(os.path.join('data', conference, 'foo-mult.dat'), 'w')
+
+        for vector in corpus_memory_friendly:  # load one vector into memory at a time
+            multFile.write(str(len(vector)) + ' ')
+            for (wordID, weigth) in vector:
+                multFile.write(str(wordID) + ':' + str(weigth) + ' ')
+
+            multFile.write('\n')
+
+        multFile.close()
+
+        print('Mult file saved')
+        return True
+    else:
+        return False
 
 
 
