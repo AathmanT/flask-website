@@ -8,7 +8,11 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
-
+    <style type="text/css">
+    h2 {
+        color: red;
+    }
+    </style>
 
 </head>
 
@@ -53,7 +57,7 @@
         </div>
         -->
         <div class="jumbotron">
-            <h1>View your LDA plot</h1>
+            <h1>View your DTM plot</h1>
             <p class="lead"></p>
             <p><a class="btn btn-lg btn-success" href="viewResults" role="button">View last results</a>
             </p>
@@ -63,9 +67,9 @@
 
         <div class="jumbotron">
         <h1>File Upload</h1>
+            <h2>Upload .txt or .csv files only</h2>
         <form id="upload-form" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
-            <input type="file" name="file" accept="text/csv" multiple ><br><br>
-            <input type="text" name="name">
+            <input type="file" name="file" required accept="text/csv" multiple ><br><br>
             <label for="from">From</label>
 
 

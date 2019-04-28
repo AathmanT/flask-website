@@ -1,6 +1,7 @@
 import os
-
 from flask import Flask, render_template, request, send_file
+
+import blei_executable_and_tethne,FilterTweetData,plotting
 
 app=Flask(__name__)
 
@@ -20,6 +21,9 @@ def upload():
 
     file = request.files['file']
     filename=file.filename
+    if not(".txt" in file.filename or ".csv" in file.filename):
+
+        return render_template("file Error.html")
     if file:
         destination = "/".join([target, filename])
         file.save(destination)
@@ -27,10 +31,13 @@ def upload():
     from_date=request.form.get("from")
     to_date=request.form.get("to")
 
+    time_stamps = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
+    time_stamps=time_stamps[int(from_date):int(to_date)+1]
 
-
-
+   # FilterTweetData.preprocess(time_stamps)
+   # blei_executable_and_tethne.make_csv(time_stamps)
+   # plotting.plot(time_stamps)
 
     return render_template("index1.html")
 
@@ -41,7 +48,7 @@ def viewResults():
 @app.route("/download")
 def downloadFile ():
     #For windows you need to use drive name [ex: F:/Example.pdf]
-    path = "static/02.png"
+    path = "static/03.png"
     return send_file(path, as_attachment=True)
 
 

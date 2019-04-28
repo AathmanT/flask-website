@@ -1,0 +1,8 @@
+CREATE TABLE `test`.`share` ( 
+    `id` INT NOT NULL , 
+    `userid` INT NOT NULL , 
+    `previlage` VARCHAR(50) NOT NULL,
+    PRIMARY KEY(id,userid),
+    FOREIGN KEY(id) REFERENCES document(id),
+    FOREIGN key(userid) REFERENCES person(userid)
+) ENGINE = InnoDB;
