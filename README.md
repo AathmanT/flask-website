@@ -1,6 +1,8 @@
-# flask-website
+# flask-website  
 
-tethne only works for Python 2.7 
+## tethne only works for Python 2.7  
+
+## tethne problems  
 
 When tethne is installed using "pip install tethne" only the 0.8 version is installed
 
@@ -27,3 +29,7 @@ from tethne.writers.corpus import write_documents, write_documents_dtm
 #from tethne.model.corpus.mallet import LDAModel  
 from model import *  
 from tethne.utilities import tokenize, normalize  
+
+## plotnine installation problems  
+if installing plotnine gives error
+manually download shapely, fiona, pyproj from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
