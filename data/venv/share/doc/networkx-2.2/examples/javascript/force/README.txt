@@ -1,7 +1,3 @@
-Modified from the example at of D3
-http://mbostock.github.com/d3/ex/force.html
-
-Run the file force.py to generate the force.json data file needed for this to work.
-
-Then copy all of the files in this directory to a webserver and load force.html.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e02b03143e5787796caa0484ebe1c6a0e3e8fa10d9fbae161dbfbc1b3a34d99f
+size 254

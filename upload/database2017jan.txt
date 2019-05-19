@@ -1,8 +1,3 @@
-CREATE TABLE `test`.`share` ( 
-    `id` INT NOT NULL , 
-    `userid` INT NOT NULL , 
-    `previlage` VARCHAR(50) NOT NULL,
-    PRIMARY KEY(id,userid),
-    FOREIGN KEY(id) REFERENCES document(id),
-    FOREIGN key(userid) REFERENCES person(userid)
-) ENGINE = InnoDB;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8fcf6ac04ba17318f7bbc2d11ab8bff14e37c77c05cf6f8cf344d67fbb21330
+size 271

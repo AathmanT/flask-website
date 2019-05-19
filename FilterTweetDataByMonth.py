@@ -48,6 +48,7 @@ def preprocess(tweets_data_path,selected_year,time_stamps):
 
     time_stamps_count = 0
 
+    content_list=""
 
     tweets_file = open(tweets_data_path, "r")
     for line in tweets_file:

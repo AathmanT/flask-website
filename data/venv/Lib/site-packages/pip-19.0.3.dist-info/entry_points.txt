@@ -1,5 +1,3 @@
-[console_scripts]
-pip = pip._internal:main
-pip3 = pip._internal:main
-pip3.7 = pip._internal:main
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bfcdfc58db942d403558d4188b02638a4a4908e6597308a3cb89839212ea6c6
+size 98
