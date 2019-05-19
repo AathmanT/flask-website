@@ -1,0 +1,6 @@
+#!c:\users\t.aathman\pycharmprojects\flaskwebsite3\data\venv\scripts\python.exe
+
+from cx_Freeze import main
+
+main()
+

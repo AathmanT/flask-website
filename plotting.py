@@ -4,19 +4,20 @@ from plotnine import *
 
 
 
-def plot(time_stamps):
+def plot(time_stamps,type):
 
     try:
         # read data
         data = pd.read_csv("OutputDTM.csv")
 
         #time_stamps = ['May']
-        type='Month'
+        #type='Month'
         value=time_stamps[0]
 
-
-        nudege_x=[0,0,-0.4,0.5,-0.4,0,0.2,0.7,0.2,0.5,0.5,0.9,0.9]
-
+        if(type=="Month"):
+            nudege_x=[0,0,-0.4,0.5,-0.4,0,0.2,0.7,0.2,0.5,0.5,0.9,0.9]
+        else:
+            nudege_x = [0 for i in time_stamps]
 
 
         fig=(
