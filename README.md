@@ -32,4 +32,8 @@ from tethne.utilities import tokenize, normalize
 
 ## plotnine installation problems  
 if installing plotnine gives error
-manually download shapely, fiona, pyproj from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
+manually download 
+shapely, 
+fiona, 
+pyproj 
+from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
