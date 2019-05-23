@@ -14,7 +14,7 @@ $("#seeAnotherField").trigger("change");
 
 $("#type").change(function() {
 			if ($(this).val() == "Month") {
-				alert("hi");
+
 				$('#ByMonthDiv').show();
 				$('#year').attr('required','');
 				$('#year').attr('data-error', 'This field is required.');
@@ -29,7 +29,7 @@ $("#type").change(function() {
         		$('#ToYear').removeAttr('required');
 				$('#ToYear').removeAttr('data-error');
 			} else {
-				alert("hello");
+
 				$('#ByYearDiv').show();
 				$('#FromYear').attr('required','');
 				$('#FromYear').attr('data-error', 'This field is required.');

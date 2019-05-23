@@ -183,7 +183,7 @@ def preprocess(tweets_data_path,selected_year,time_stamps):
 
 
 
-preprocess("output.txt","2019", time_stamps = ['Jan','Feb', 'Mar','Apr','May','Jun','Jul','Aug','Sep','Oct', 'Nov', 'Dec'])
+#preprocess("output.txt","2019", time_stamps = ['Jan','Feb', 'Mar','Apr','May','Jun','Jul','Aug','Sep','Oct', 'Nov', 'Dec'])
 
 
 
