@@ -37,3 +37,5 @@ shapely,
 fiona,   
 pyproj   
 from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
+
+## install gensim 3.7.2  
