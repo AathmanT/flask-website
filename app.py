@@ -111,7 +111,11 @@ def upload():
 
 @app.route("/viewResults")
 def viewResults():
-    return render_template("index1.html")
+    if os.path.isfile(APP_ROOT+"/static/03.png"):
+        print(True)
+        return render_template("index1.html",fileExists=True)
+    else:
+        return render_template("index1.html",fileExists=False)
 
 @app.route("/download")
 def downloadFile ():

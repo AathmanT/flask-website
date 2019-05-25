@@ -46,10 +46,14 @@
     </nav>
 
         <div class="jumbotron">
+            {% if fileExists==True %}
+
             <h1>View your DTM plot        <a class="btn btn-lg btn-success" href="download" role="button">Save results</a></h1>
             <img src="{{url_for('static', filename='03.png')}}">
             <p class="lead"></p>
-
+            {% else %}
+            <h1>You dont have any plots so far</h1>
+            {% endif %}
         </div>
 
 
