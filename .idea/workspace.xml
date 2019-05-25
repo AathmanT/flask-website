@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07a64421-7915-493e-88c2-5f415fb1ffc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OutputDTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OutputDTM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tourism/dictionary.dict" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/dictionary.dict" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tourism/foo-mult.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/foo-mult.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tourism/foo-seq.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/foo-seq.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tourism/metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/metadata.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tourism/vocabulary.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/vocabulary.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/upload/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +16,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="-714">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="48" column="110" selection-start-line="48" selection-start-column="110" selection-end-line="48" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -58,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
+            <state relative-caret-position="241">
               <caret line="184" column="36" selection-start-line="184" selection-start-column="36" selection-end-line="184" selection-end-column="36" />
             </state>
           </provider>
@@ -136,7 +139,6 @@
       <list>
         <option value="$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/__init__.py" />
         <option value="$PROJECT_DIR$/plotnine-plotting.py" />
-        <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/templates/file Error.html" />
         <option value="$PROJECT_DIR$/FilterTweetData.py" />
         <option value="$PROJECT_DIR$/blei_executable_and_tethne.py" />
@@ -157,6 +159,7 @@
         <option value="$PROJECT_DIR$/test_preprocess.py" />
         <option value="$PROJECT_DIR$/static/hide-show-fields-form.js" />
         <option value="$PROJECT_DIR$/Integration_test.py" />
+        <option value="$PROJECT_DIR$/templates/index1.html" />
       </list>
     </option>
   </component>
@@ -425,7 +428,7 @@
       <workItem from="1558761224189" duration="610000" />
       <workItem from="1558765441171" duration="1490000" />
       <workItem from="1558766976996" duration="2921000" />
-      <workItem from="1558784149705" duration="1951000" />
+      <workItem from="1558784149705" duration="3662000" />
     </task>
     <servers />
   </component>
@@ -462,17 +465,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72934000" />
+    <option name="totallyTimeSpent" value="74645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992224" weight="0.3502455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992224" visible="true" weight="0.3502455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42716858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,7 +567,7 @@
     <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetData.coverage" NAME="FilterTweetData Coverage Results" MODIFIED="1556537542919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetDataByMonth.coverage" NAME="FilterTweetDataByMonth Coverage Results" MODIFIED="1558256600955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_integration_TestIntegration.coverage" NAME="Unittests for test_integration.TestIntegration Coverage Results" MODIFIED="1558528252592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558635014269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558794635814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/upload/20190425_205253.jpg">
@@ -638,13 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -766,17 +763,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="48" column="110" selection-start-line="48" selection-start-column="110" selection-end-line="48" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
+        <state relative-caret-position="241">
           <caret line="184" column="36" selection-start-line="184" selection-start-column="36" selection-end-line="184" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="-714">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
