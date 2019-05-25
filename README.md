@@ -39,3 +39,7 @@ pyproj
 from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
 
 ## install gensim 3.7.2  
+
+## install pyqt4
+pyqt4 from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj
+and pip install python-qt5
