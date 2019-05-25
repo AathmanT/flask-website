@@ -1,4 +1,4 @@
-# flask-website  
+# flask-website made by Python 2.7  
 
 ## tethne only works for Python 2.7  
 
