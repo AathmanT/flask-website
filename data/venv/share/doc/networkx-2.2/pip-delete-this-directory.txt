@@ -1,5 +1,3 @@
-This file is placed here by pip to indicate the source was put
-here by pip.
-
-Once this package is successfully installed this source code will be
-deleted (unless you remove this file).
+version https://git-lfs.github.com/spec/v1
+oid sha256:156877832e4de823d37e351bd505833a1a416467d8cad79a8b1c39da76701049
+size 190

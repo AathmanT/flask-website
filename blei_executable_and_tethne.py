@@ -4,7 +4,7 @@ import tethne
 
 
 ### GENERATE CONFERENCES LIST AND YEARS ###
-def make_csv(time_stamps):
+def make_csv(time_stamps,type):
 
     try:
         #Get conferences names to be analized.
@@ -12,7 +12,7 @@ def make_csv(time_stamps):
 
         #time_stamps = ['Jan','Feb', 'Mar','Apr','May','Jun','Jul','Aug','Sep','Oct', 'Nov', 'Dec']
         #time_stamps = ['May']
-        type='Month'
+        #type='Month'
 
 
         #Create file to export
