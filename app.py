@@ -1,5 +1,5 @@
 import os,time
-
+import qttest
 
 from flask import Flask, render_template, request, send_file
 
@@ -142,4 +142,5 @@ def profile(fnc):
     return inner
 
 if __name__=="__main__":
-    app.run(debug=True)
+    #app.run(debug=True)
+    qttest.main(app)

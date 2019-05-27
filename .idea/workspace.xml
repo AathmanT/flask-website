@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07a64421-7915-493e-88c2-5f415fb1ffc6" name="Default Changelist" comment="">
+    <list default="true" id="9c3e814d-94ac-43c5-b8db-5fac3bb66a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            <state relative-caret-position="278">
+              <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -26,39 +25,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_preprocess.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qttest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Integration_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>seeAnotherFieldGroup</find>
-      <find>otherFieldGroupDiv</find>
-      <find>alert</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,29 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/__init__.py" />
-        <option value="$PROJECT_DIR$/plotnine-plotting.py" />
-        <option value="$PROJECT_DIR$/templates/file Error.html" />
-        <option value="$PROJECT_DIR$/FilterTweetData.py" />
-        <option value="$PROJECT_DIR$/blei_executable_and_tethne.py" />
-        <option value="$PROJECT_DIR$/plotting.py" />
-        <option value="$PROJECT_DIR$/FilterTweetDataByYear.py" />
-        <option value="$PROJECT_DIR$/FilterTweetDataByDate.py" />
-        <option value="$PROJECT_DIR$/templates/data Error.html" />
-        <option value="$PROJECT_DIR$/templates/Time Error.html" />
-        <option value="$PROJECT_DIR$/templates/hide-show-fields-form.html" />
-        <option value="$PROJECT_DIR$/data/venv/Lib/site-packages/PyInstaller/hooks/hook-nltk.py" />
-        <option value="$PROJECT_DIR$/data/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__nltk.py" />
-        <option value="$PROJECT_DIR$/profiler.py" />
-        <option value="$PROJECT_DIR$/Integration test.py" />
-        <option value="$PROJECT_DIR$/FilterTweetDataByMonth.py" />
-        <option value="$PROJECT_DIR$/test_integration.py" />
-        <option value="$PROJECT_DIR$/test_preprocess.py" />
-        <option value="$PROJECT_DIR$/static/hide-show-fields-form.js" />
-        <option value="$PROJECT_DIR$/Integration_test.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/qttest.py" />
       </list>
     </option>
   </component>
@@ -98,7 +56,7 @@
     <option name="width" value="1346" />
     <option name="height" value="659" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -106,6 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,35 +72,21 @@
               <item name="FlaskWebsite3" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskWebsite3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FlaskWebsite3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlaskWebsite3" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyFladesk-master/PyFladesk-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\templates" />
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\static" />
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\tethne fix" />
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\output" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\tethne fix" />
       <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3" />
-      <recent name="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlaskWebsite3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,138 +124,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="profiler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profiler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Integration_test" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\data\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Integration_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Integration_test.Integration" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Integration_test.Integration&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Integration_test.Integration.integration_test_month_for_correct" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\data\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Integration_test.Integration.integration_test_month_for_correct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Integration_test.Integration.integration_test_year_for_correct" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\T.Aathman\PycharmProjects\FlaskWebsite3\data\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Integration_test.Integration.integration_test_year_for_correct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_integration.TestIntegration" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integration.TestIntegration&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_preprocess.TestPreprocess" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="FlaskWebsite3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_preprocess.TestPreprocess&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.profiler" />
-      <item itemvalue="Python tests.Unittests for Integration_test" />
-      <item itemvalue="Python tests.Unittests for Integration_test.Integration.integration_test_month_for_correct" />
-      <item itemvalue="Python tests.Unittests for Integration_test.Integration.integration_test_year_for_correct" />
-      <item itemvalue="Python tests.Unittests for Integration_test.Integration" />
-      <item itemvalue="Python tests.Unittests for test_preprocess.TestPreprocess" />
-      <item itemvalue="Python tests.Unittests for test_integration.TestIntegration" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.profiler" />
-        <item itemvalue="Python tests.Unittests for Integration_test.Integration" />
-        <item itemvalue="Python tests.Unittests for test_preprocess.TestPreprocess" />
-        <item itemvalue="Python tests.Unittests for test_integration.TestIntegration" />
       </list>
     </recent_temporary>
   </component>
@@ -319,404 +135,79 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07a64421-7915-493e-88c2-5f415fb1ffc6" name="Default Changelist" comment="" />
-      <created>1555665897603</created>
+      <changelist id="9c3e814d-94ac-43c5-b8db-5fac3bb66a9a" name="Default Changelist" comment="" />
+      <created>1558807750974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555665897603</updated>
-      <workItem from="1556274030091" duration="123000" />
-      <workItem from="1556298618920" duration="127000" />
-      <workItem from="1556298961456" duration="211000" />
-      <workItem from="1556373622930" duration="406000" />
-      <workItem from="1556374106261" duration="2488000" />
-      <workItem from="1556386302429" duration="3549000" />
-      <workItem from="1556390368549" duration="329000" />
-      <workItem from="1556447749075" duration="1097000" />
-      <workItem from="1556449371133" duration="16152000" />
-      <workItem from="1556478217518" duration="380000" />
-      <workItem from="1556517354943" duration="815000" />
-      <workItem from="1556535985263" duration="12247000" />
-      <workItem from="1556805698496" duration="46000" />
-      <workItem from="1557468812759" duration="77000" />
-      <workItem from="1557473610694" duration="4693000" />
-      <workItem from="1558186604225" duration="4338000" />
-      <workItem from="1558253928813" duration="3315000" />
-      <workItem from="1558266812817" duration="1620000" />
-      <workItem from="1558521749046" duration="3165000" />
-      <workItem from="1558528026482" duration="941000" />
-      <workItem from="1558590935124" duration="1011000" />
-      <workItem from="1558592289170" duration="599000" />
-      <workItem from="1558597051389" duration="3888000" />
-      <workItem from="1558603251956" duration="1069000" />
-      <workItem from="1558607066366" duration="855000" />
-      <workItem from="1558633063839" duration="2421000" />
-      <workItem from="1558761224189" duration="610000" />
-      <workItem from="1558765441171" duration="1490000" />
-      <workItem from="1558766976996" duration="2921000" />
-      <workItem from="1558784149705" duration="4359000" />
-      <workItem from="1558805341743" duration="1806000" />
+      <updated>1558807750974</updated>
+      <workItem from="1558807752406" duration="2391000" />
+      <workItem from="1558931343487" duration="931000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.22 at 18h 11m 15s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.22 at 18h 11m 41s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.22 at 18h 12m 01s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.22 at 18h 12m 09s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.23 at 11h 28m 16s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Integration_test_Integration - 2019.05.23 at 11h 32m 36s.xml">
-      <configuration name="Unittests for Integration_test.Integration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.23 at 13h 45m 26s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_preprocess_TestPreprocess - 2019.05.23 at 14h 02m 19s.xml">
-      <configuration name="Unittests for test_preprocess.TestPreprocess" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Integration_test_Integration - 2019.05.23 at 14h 03m 54s.xml">
-      <configuration name="Unittests for Integration_test.Integration" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Integration_test_Integration - 2019.05.23 at 23h 08m 11s.xml">
-      <configuration name="Unittests for Integration_test.Integration" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77148000" />
+    <option name="totallyTimeSpent" value="3322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2881997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992224" visible="true" weight="0.3502455" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42716858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30608365" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007776" side_tool="true" weight="0.38212928" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="13" visible="true" weight="0.46972176" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FilterTweetDataByMonth.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_Integration_test_Integrationtest.coverage" NAME="Unittests for Integration test.Integrationtest Coverage Results" MODIFIED="1558523363384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess_for_correct.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess_for_correct Coverage Results" MODIFIED="1558523879144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$blei_executable_and_tethne.coverage" NAME="blei_executable_and_tethne Coverage Results" MODIFIED="1556452989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$plotting.coverage" NAME="plotting Coverage Results" MODIFIED="1556462571258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess_file_only_one_invalid.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess_file_only_one_invalid Coverage Results" MODIFIED="1556477514872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetDataByDate.coverage" NAME="FilterTweetDataByDate Coverage Results" MODIFIED="1556543278624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess_file_one_invalid_others_correct.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess_file_one_invalid_others_correct Coverage Results" MODIFIED="1556477521565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess Coverage Results" MODIFIED="1556476254573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$plotnine_plotting.coverage" NAME="plotnine-plotting Coverage Results" MODIFIED="1556460992388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_Integration_test_Integration.coverage" NAME="Unittests for Integration_test.Integration Coverage Results" MODIFIED="1558633090121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetDataByYear.coverage" NAME="FilterTweetDataByYear Coverage Results" MODIFIED="1556540451435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_Integration_test_Integration_integration_test_month_for_correct.coverage" NAME="Unittests for Integration_test.Integration.integration_test_month_for_correct Coverage Results" MODIFIED="1558528525157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess.coverage" NAME="Unittests for test_preprocess.TestPreprocess Coverage Results" MODIFIED="1558600051038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess_file_invalid.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess_file_invalid Coverage Results" MODIFIED="1556477391554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$profiler.coverage" NAME="profiler Coverage Results" MODIFIED="1558634784938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_preprocess_TestPreprocess_test_preprocess_file_empty.coverage" NAME="Unittests for test_preprocess.TestPreprocess.test_preprocess_file_empty Coverage Results" MODIFIED="1556476495960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetData.coverage" NAME="FilterTweetData Coverage Results" MODIFIED="1556537542919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$FilterTweetDataByMonth.coverage" NAME="FilterTweetDataByMonth Coverage Results" MODIFIED="1558256600955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_integration_TestIntegration.coverage" NAME="Unittests for test_integration.TestIntegration Coverage Results" MODIFIED="1558528252592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558807013042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558932273632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upload/20190425_205253.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/model/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/model/corpus/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/output/07.png" />
-    <entry file="file://$PROJECT_DIR$/OutputDTM.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/03.png" />
-    <entry file="file://$PROJECT_DIR$/tourism1.txt" />
-    <entry file="file://$PROJECT_DIR$/empty.txt" />
-    <entry file="file://$PROJECT_DIR$/invalid.txt" />
-    <entry file="file://$PROJECT_DIR$/invalid_others_correct.txt" />
-    <entry file="file://$PROJECT_DIR$/templates/file Error.html">
+    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/PyQt4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tourism/foo-mult.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tourism/foo-seq.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tourism.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/data Error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Time Error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/hide-show-fields-form.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilterTweetDataByYear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/PyInstaller/hooks/hook-nltk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hide-show-fields-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="68" selection-start-line="68" selection-end-line="68" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__nltk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#410#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tourism/metadata.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tourism/vocabulary.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python27/Lib/pstats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/tethne/model/corpus/dtmmodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="278" column="4" lean-forward="true" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_integration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tethne fix/model/corpus/mallet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilterTweetDataByMonth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1651">
-          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/hide-show-fields-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="14">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        <state relative-caret-position="278">
+          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_preprocess.py">
+    <entry file="file://$PROJECT_DIR$/qttest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blei_executable_and_tethne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilterTweetDataByDate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Integration_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
