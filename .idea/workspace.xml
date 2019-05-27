@@ -3,7 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3e814d-94ac-43c5-b8db-5fac3bb66a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OutputDTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OutputDTM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/dictionary.dict" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/dictionary.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/foo-mult.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/foo-mult.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/foo-seq.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/foo-seq.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/metadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/em_log.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/em_log.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/initial-lda-ss.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/initial-lda-ss.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/initial-lda.beta" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/initial-lda.beta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/gam.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/gam.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/info.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/lhoods.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/lhoods.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-info.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-var-e-log-prob.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-var-e-log-prob.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-var-obs.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-000-var-obs.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-info.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-var-e-log-prob.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-var-e-log-prob.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-var-obs.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-001-var-obs.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-info.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-var-e-log-prob.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-var-e-log-prob.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-var-obs.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/output/lda-seq/topic-002-var-obs.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tourism/vocabulary.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/tourism/vocabulary.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_integration.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+            <state relative-caret-position="59">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -25,11 +47,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_integration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilterTweetDataByYear.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="166" column="80" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blei_executable_and_tethne.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilterTweetDataByMonth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_preprocess.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qttest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="325">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -47,12 +124,13 @@
       <list>
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/qttest.py" />
+        <option value="$PROJECT_DIR$/test_integration.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="14" />
+    <option name="x" value="15" />
+    <option name="y" value="32" />
     <option name="width" value="1346" />
     <option name="height" value="659" />
   </component>
@@ -71,6 +149,11 @@
             <path>
               <item name="FlaskWebsite3" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskWebsite3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskWebsite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskWebsite3" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlaskWebsite3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,9 +207,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_integration.TestIntegration" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FlaskWebsite3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_integration.TestIntegration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FlaskWebsite3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_integration.TestIntegration.test_integration_test_month_for_wrong&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Unittests for test_integration.TestIntegration" />
+        <item itemvalue="Python tests.Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" />
       </list>
     </recent_temporary>
   </component>
@@ -141,24 +256,57 @@
       <option name="presentableId" value="Default" />
       <updated>1558807750974</updated>
       <workItem from="1558807752406" duration="2391000" />
-      <workItem from="1558931343487" duration="931000" />
+      <workItem from="1558931343487" duration="1369000" />
+      <workItem from="1558951913515" duration="7874000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_integration_TestIntegration - 2019.05.27 at 16h 34m 57s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration - 2019.05.27 at 16h 48m 48s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 02m 52s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 06m 31s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 16m 10s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 24m 29s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 26m 25s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong - 2019.05.27 at 17h 26m 31s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration - 2019.05.27 at 17h 51m 04s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_integration_TestIntegration - 2019.05.27 at 17h 58m 20s.xml">
+      <configuration name="Unittests for test_integration.TestIntegration" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3322000" />
+    <option name="totallyTimeSpent" value="11634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46644846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -180,8 +328,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_integration.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_integration.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558932273632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_integration_TestIntegration_test_integration_test_month_for_wrong.coverage" NAME="Unittests for test_integration.TestIntegration.test_integration_test_month_for_wrong Coverage Results" MODIFIED="1558958185751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskWebsite3$Unittests_for_test_integration_TestIntegration.coverage" NAME="Unittests for test_integration.TestIntegration Coverage Results" MODIFIED="1558960098689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskWebsite3$app.coverage" NAME="app Coverage Results" MODIFIED="1558960473901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/venv/Lib/site-packages/PyQt4/__init__.py">
@@ -191,22 +357,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/qttest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+        <state relative-caret-position="325">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qttest.py">
+    <entry file="file://$PROJECT_DIR$/test_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilterTweetDataByMonth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="224">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blei_executable_and_tethne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilterTweetDataByYear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="166" column="80" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_integration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
