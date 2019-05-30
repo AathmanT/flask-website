@@ -107,7 +107,7 @@ def upload():
 
 
     print("time elapsed : ",time.time()-start_time)
-    return render_template("index1.html")
+    return render_template("index1.html",fileExists=True)
 
 @app.route("/viewResults")
 def viewResults():
@@ -142,5 +142,5 @@ def profile(fnc):
     return inner
 
 if __name__=="__main__":
-    #app.run(debug=True)
+    # app.run(debug=True)
     qttest.main(app)
