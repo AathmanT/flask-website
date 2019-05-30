@@ -1,5 +1,10 @@
-# flask-website made by Python 2.7 in Windows
+# Dynamic Topic Modelling of Tweets  
+## Made from Python 2.7 in Windows
 
+## You can directly activate the virtual environment given in the project
+## or you can install all the libraries on your own
+
+# library intallation errors
 ## tethne only works for Python 2.7  
 
 ## tethne problems  
